@@ -1,0 +1,1225 @@
+f@font-face {
+    font-family: BebasThin;
+    src: url(../font/BebasNeueThin.otf);
+}
+
+@font-face {
+    font-family: BebasBold;
+    src: url(../font/BebasNeueBold.otf);
+}
+
+@font-face {
+    font-family: Kirvy-Thin;
+    src: url(../font/Kirvy-Thin.otf);
+}
+
+@font-face {
+    font-family: BIGJOHN;
+    src: url(../font/BIGJOHN.otf);
+}
+
+@font-face {
+    font-family: Aileron-UltraLight;
+    src: url(../font/Aileron-UltraLight.otf);
+}
+@font-face {
+    font-family: Aileron-SemiBold;
+    src: url(../font/Aileron-SemiBold.otf);
+}
+
+@font-face {
+    font-family: Canter-Bold;
+    src: url(../font/Canter-Bold.otf);
+}
+
+@font-face {
+    font-family: CanterLight;
+    src: url(../font/CanterLight.otf);
+}
+@font-face {
+    font-family: Abadi;
+    src: url(../font/Abadi.otf);
+}
+
+@font-face {
+    font-family: GandhiSans-Regular;
+    src: url(../font/GandhiSans-Regular.otf);
+}
+@font-face {
+    font-family: GandhiSans-Bold;
+    src: url(../font/GandhiSans-Bold.otf);
+}
+a{
+	text-decoration: none;
+}
+
+h1,h2{
+	color:white;
+	font-family: CanterLight;
+	letter-spacing: 8px;
+	margin: 0 auto;
+	line-height: 1;
+}
+
+h3{
+	font-family: Aileron-UltraLight;
+	color: #fff;
+	letter-spacing: 3px;
+	margin: 0 auto;
+	font-size: 30px;
+
+}
+
+h1{
+	font-size: 240px;
+}
+
+h4{
+	font-size: 35px;
+	font-family: Aileron-UltraLight;
+	color: #fff;
+	letter-spacing: 3px;
+	margin: 0 ;
+
+}
+
+td{
+	color: white;
+	
+	
+	font-family: Canter-Bold;
+	font-size: 20px;
+	letter-spacing: 3px;
+	padding: 10px;
+
+}
+
+ #botones{
+     float: left;
+     width: 100px;
+     height: 20px;
+} #barra{
+     position: relative;
+     float: left;
+     width: 600px;
+     height: 16px;
+     padding: 2px;
+     border: 1px solid #CCCCCC;
+     background: #EEEEEE;
+} #progreso{
+     position: absolute;
+     width: 0px;
+     height: 16px;
+     background: rgba(0,0,150,.2);
+}
+ 
+
+.display{
+	display: none;
+}
+.arriba{
+	padding-top: 80px;
+}
+.abajo{
+	padding-bottom: 80px;
+}
+
+.abajo40{
+	padding-bottom: 40px;
+}
+
+
+.ti{
+font-family: BIGJOHN;
+color: #000;
+font-size: 40px;
+letter-spacing: 6px;
+margin: 0 auto;
+text-align: center;
+padding-top: 5px;
+
+}
+
+.galeria{
+font-family: Aileron-SemiBold;
+color: #000;
+font-size: 15px;
+letter-spacing: 3px;
+margin: 0 auto;
+text-align: center;
+}
+
+.quien{
+	font-family: Aileron-SemiBold;
+	font-size: 25px;
+}
+
+.tiquien{
+	font-family: Aileron-SemiBold;
+	font-size: 32px;
+	letter-spacing: 6px;
+	text-align: center;
+	
+}
+
+.cerrar{
+	position: absolute;
+	left: 30px;
+	top: 30px;
+}
+
+.parra , .parra a{
+font-family: GandhiSans-Regular;
+color: #afafaf;
+font-size: 20px;
+letter-spacing: 5px;
+margin: 0 auto;
+text-align: center;
+text-decoration: none;
+}
+
+.quienes{
+	font-size: 15px;
+}
+
+.copy{
+	font-size: 10px;
+	text-align: left;
+}
+
+.txtcenter{
+	text-align: center;
+}
+
+.txtjustify{
+	text-align: justify;
+}
+
+
+#bton{
+	text-align: center;
+	height: auto;
+}
+
+
+.bt{
+	text-decoration: none;
+	border: 3px solid black;
+	font-family: Canter-Bold;
+	font-size: 20px;
+	padding: 20px;
+	letter-spacing: 3px;
+	color: black;
+	 -webkit-transition: all 500ms ease-out 500ms;
+    -moz-transition: all 500ms ease-out 500ms;
+    -o-transition: all 500ms ease-out 500ms;
+    transition: all 500ms ease-out 500ms;
+
+}
+
+.bt:hover{
+	
+	border: 1px solid white;
+	
+	color: white;
+	background-color: black;
+	 -webkit-transition: all 200ms ease-out 200ms;
+    -moz-transition: all 200ms ease-out 200ms;
+    -o-transition: all 200ms ease-out 200ms;
+    transition: all 200ms ease-out 200ms;
+}
+.chico{
+
+	text-decoration: none;
+	border: 3px solid white;
+	font-size: 18px;
+	padding: 10px 30px;
+	color: white;
+	font-family: Canter-Bold;
+	letter-spacing: 3px;
+	
+	
+	color: Black;
+	background-color: white;
+	 -webkit-transition: all 200ms ease-out 200ms;
+    -moz-transition: all 200ms ease-out 200ms;
+    -o-transition: all 200ms ease-out 200ms;
+    transition: all 200ms ease-out 200ms;
+
+}
+
+
+.chico:hover{
+	text-decoration: none;
+	border: 3px solid white;
+	font-size: 18px;
+	padding: 10px 30px;
+	color: White;
+	font-family: Canter-Bold;
+	letter-spacing: 3px;
+	background-color: black;
+	 -webkit-transition: all 200ms ease-out 200ms;
+    -moz-transition: all 200ms ease-out 200ms;
+    -o-transition: all 200ms ease-out 200ms;
+    transition: all 200ms ease-out 200ms;
+
+
+}
+
+
+
+.grupo{
+	
+	width: 100%;
+}
+
+.borde{
+	border: 1px solid white;
+}
+
+.azul{
+	border-color: blue;
+}
+
+.verde{
+	border-color: green;
+}
+
+.negro{
+	border-color: black;
+}
+
+.blancob{
+	border-color: white;
+}
+.blanco{
+	color: white;
+}
+
+
+.logo{
+	width: 250px;
+	height: 300px;
+	margin: 0 auto;
+}
+
+#titulofotoportada, #mitad{
+	height: 100%;
+}
+
+#fotohome{
+	height: 100vh;
+	position: relative;
+}
+#foto{
+    height:750px;
+}
+
+#titulosportada{
+	position: absolute;
+	bottom: 30px !important;
+	right: 30px;
+	text-align: right !important; 
+}
+#espacio{
+	height: 31%;
+
+}
+.textd{
+	text-align: right;
+	height: 120px;
+	text-shadow: 3px 3px #000;
+	
+}
+
+.pad-30{
+	padding: 30px;
+
+}
+
+.pad-60{
+	padding: 60px 0px 60px 0px;
+}
+
+.pad-80{
+	padding: 80px 0px 80px 0px;
+}
+#titulosegunda{
+	
+	background-color: white;
+	
+
+}
+
+#somos{
+	width: 80%;
+}
+
+
+
+#quehacemos{
+	padding: 70px;
+}
+
+#contenedor{
+	background-color: #f8f7f5;
+	height: 500px;
+}
+
+#info, #fotoch{
+	height: 100%;
+
+}
+#info{
+	border-top:1px solid black;
+	border-left:1px solid black;
+	border-bottom:1px solid black;
+}
+
+#nadamos, #manaparra{
+	text-align: justify;
+	width: 80%;
+	font-size: 17px;
+	letter-spacing: 2px;
+	padding: 30px;
+}
+#adress{
+	text-align: center;
+	color: #afafaf;
+	padding: 0px;
+	width: 100%;
+	font-size: 17px;
+	letter-spacing: 2px;
+	font-family: Aileron-SemiBold;
+
+}
+
+#managtext{
+	text-align: left;
+	width: 80%;
+}
+
+#sec1 ,#sec2{
+	height: 800px;
+	padding: 0px;
+}
+.larga{
+	height:600px;
+}
+
+.corta{
+	height:200px;
+}
+
+#cajagris, #music{
+	background-color: #f8f7f5;
+	height: 200px;
+}
+.bgris{
+	background-color: #f8f7f5;
+}
+
+.bnegro{
+	background-color: #000;
+}
+
+.bnegro60{
+	background: url(../images/bnegro.png);
+
+	}
+#titu{
+	background: url(../images/bnegro.png);
+
+}
+#music{
+	float: left;
+}
+
+
+#manag{
+	height: 100%;
+}
+.alto{
+	height: 500px;
+}
+.altototal{
+	height: 40%;
+}
+
+.altototal2{
+	height: 150px;
+}
+
+.altoM{
+	height: 700px;
+}
+
+.altoti{
+	height: 100px;
+	padding-top: 30px;
+}
+
+#management{
+	background: url(../images/management3.jpg);
+	background-size: 100%;
+	height: 400px;
+
+	
+}
+
+#booking{
+	
+}
+#production {
+
+
+	background-position:left top;
+	background-size: 100% ;
+}
+
+#sabermas{
+	padding: 20px;
+	text-align: right;
+}
+
+
+
+
+
+.rotate{
+	width: 300px;
+	height: 300px;
+	overflow:hidden;
+	-webkit-transition-duration: 0.8s;
+	-moz-transition-duration: 0.8s;
+	-o-transition-duration: 0.8s;
+	transition-duration: 0.8s;
+	-webkit-transition-property: -webkit-transform;
+	-moz-transition-property: -moz-transform;
+	-o-transition-property: -o-transform;
+	transition-property: transform;
+	
+	
+
+	}
+.rotate:hover   
+{ 
+    -webkit-transform: rotate(360deg);
+    -moz-transform:rotate(360deg); 
+    -o-transform:rotate(360deg);
+}
+
+
+
+#losaguasUSA, #estramboticosUSA, #FILIJ31, #FILIJ32, #FILIJ33, #FILIJ34,#mezcal, #RECREO,#sargento,#juana, #seeed,#palenke, 
+#Sidestepper, #solar, #losaguas, #estramboticos, #panteon, #rebels , #enjambre, #porter, #romanticos,
+#CALACAS, #ALICIA, #haragan,#tech,#sidd, #resorte , #sekta{
+	height: 80%;
+
+}
+
+
+#FILIJ31, #FILIJ32, #FILIJ33, #mezcal, #RECREO, #CALACAS, #ALICIA{
+	width: 200px;
+	margin: 0 auto;
+}
+
+
+#GruposB{
+	background: url(../images/fondo.png);
+	
+}
+
+#EventosP{
+	background: url(../images/bookingfondo.jpg);
+}
+
+#TEXTPRO{
+	display: none;
+	
+    background-size: 100% 100%;
+}
+
+
+#promenu{
+	padding: 20px;
+
+}
+.todo{
+	width: 100%;
+	height: 100%;
+}
+
+#logoove{
+	display: block;
+	
+}
+
+#infoperson{
+	
+	
+}
+
+#titM, #infoperson{
+	display: none;
+}
+
+#framegoogle{
+	border: 10px solid #2a3232;
+	border-radius: 10px;
+}
+
+
+iframe{
+	margin: 0 auto;
+}
+
+.play{
+
+height: 52px;
+width: 52px;
+background: url('../images/play.png');
+background-size: 80% 80%;
+-moz-transition: all .5s;
+-webkit-transition: all .5s;
+transition: all .5s;
+background-position: center;
+background-repeat: no-repeat;
+}
+
+.pause{
+background: url('../images/pause.png');	
+
+height: 52px;
+width: 52px;
+
+background-size: 80% 80%;
+-moz-transition: all .5s;
+-webkit-transition: all .5s;
+transition: all .5s;
+background-position: center;
+background-repeat: no-repeat;
+
+}
+
+.anima{
+background: url('../images/music.png');	
+visibility: hidden;
+height: 52px;
+width: 122px;
+background-size: 170% 100%;
+background-position: center;
+}
+
+
+.instagram{
+	background: url('../images/insta.png');
+}
+
+.twitter{
+background: url('../images/twitter.png');
+}
+
+.youtube{
+background: url('../images/youtube.png');
+}
+
+.facebook{
+background: url('../images/facebook2.png');
+}
+
+/*  */
+.facebook, .instagram, .twitter, .youtube{
+
+height: 70px;
+width: 70px;
+background-size: 80% 80%;
+background-position: center;
+background-repeat: no-repeat;
+text-align: center;
+margin: 0 auto;
+
+-moz-transition: all .5s;
+-webkit-transition: all .5s;
+transition: all .5s;
+}
+
+.twitter:hover, .facebook:hover, .youtube:hover, .play:hover , .pause:hover, .instagram:hover{
+background-size: 100% 100%;
+
+}
+.video, .display-none{
+	margin: 0px;
+	padding: 0px;
+	display: none;
+}
+
+.tablamenu{
+	width: 100%;
+
+}
+
+#titulo{
+	cursor: pointer;
+	background: url(../images/bnegro.png);
+	height: 50px;
+	margin-top: 30px;
+
+}
+
+#titubnegro{
+	width: 700px;
+	margin: 0 auto;
+	height: 100px;
+		
+}
+
+#regresar{
+	text-decoration: none;
+	-moz-transition: all .5s;
+-webkit-transition: all .5s;
+transition: all .5s;
+}
+
+#regresar:hover{
+font-size: 25px;
+-moz-transition: all .5s;
+-webkit-transition: all .5s;
+transition: all .5s;
+}
+
+
+#logogrande{
+	background: url(../images/panteon/panteonback.png);
+}
+
+#logograndeSar{
+	background: url(../images/sargento/backlogo2.png);
+
+}
+#logograndeJuana{
+	/*background: url(../images/juana/backlogo.png);*/
+}
+#logograndeSeed{
+	background: url(../images/seeed/backlogo.png);
+}
+#logograndeSide{
+	background: url(../images/sidestepper/backlogo.png);
+}
+#logograndeEstram{
+	background: url(../images/estramboticos/backlogo.png);
+}
+#logograndeAguas{
+	background: url(../images/aguas/backlogo.png);
+}
+#logograndeEnjambre{
+	background: url(../images/enjambre/backlogo.png);
+}
+#logograndeRebel{
+	background: url(../images/rebelCATS/backlogo.png);
+}
+#logograndeRomanticos{
+	background: url(../images/romanticosz/backlogo.png);
+}
+#logograndePorter{
+	background: url(../images/porter/backlogo.png);
+
+}
+#logograndeharagan{
+	background: url(../images/haragan/logotipo_plateado2.png);
+}
+#logograndeTech{
+	background: url("../images/technicolor/Logos-TF_2.png");
+}
+#logosidd{
+	background: url("../images/sidd/siddhartha_logo.png");
+}
+#logograndeResorte{
+	background: url("../images/resorte/logo2.png");
+}
+#logograndeResorte,#logosidd, #logograndeTech, #logograndeharagan,#logograndePorter,#logograndeRomanticos,#logograndeRebel,#logograndeEnjambre,#logograndeAguas,#logogrande, #logograndeSar,#logograndeJuana,#logograndeSeed,#logograndeSide,#logograndeEstram{	
+	background-size: 100%;
+	background-repeat: no-repeat;
+}
+
+#copy{
+	border-top: 2px solid white;
+}
+
+#reservado{
+	border-top: 2px solid #333333;
+}
+.pad-top{
+	padding-top: 30px;
+}
+
+#closecontacto{
+	height: 300px;
+	width: 300px;
+}
+
+.txtderecha{
+	text-align: right;
+}
+#partners{
+	float: right;
+}
+
+#mapamobile, #ubimobile{
+	display: none;
+}
+
+
+
+@media screen and (min-width: 200px) and (max-width: 600px) {		
+	#reservado{
+		border-top: 0px solid #333333;
+	}
+	.parra{
+		font-size: 16px !important;
+		letter-spacing: 1px !important;
+	}
+	a img{
+		padding-bottom: 35px;
+	}
+	#fotohome{
+		height: 300px;
+	}
+	#nadamos, #manaparra{
+	text-align: left;
+	
+	}
+	#titulosportada{
+		display: none;
+	}
+	#logoove{
+		bottom: 10px;
+		right: 10px;
+		position: absolute;
+	}
+
+
+	.tache{
+		display: none;
+	}
+
+	.logo img{
+
+	width: 200px;
+	height: 100%;
+	margin: 0 auto;
+	
+
+}
+	#booking,#production{
+	display: none;
+
+}
+
+
+
+#bookingmobil,#productionmobil{
+
+	display: inline-block;
+}
+
+
+#video{
+		height: 280px
+	}
+
+
+
+
+}
+
+@media screen and (min-width: 80px) and (max-width: 767px) {
+
+
+
+.fixed{
+	position: absolute;
+    top: 280;
+    right: 0;
+}
+
+
+
+#mapamobile, #ubimobile{
+	display: block;
+	
+	
+}
+
+#mapamobile{
+	
+	height: 400px;
+
+}
+
+#mapaweb{
+	display: none;
+}
+
+
+#titubnegro{
+	width: 350px;
+	background: url(../images/bnegro.png);
+	
+}
+#titulo{
+
+	height: 50px;
+	
+
+}
+
+	#foto{
+    
+   
+    height: 400px;
+    
+}
+
+#mitad{
+	display: none;
+}
+h1,h2{
+font-size: 100px;
+
+}
+h3, #regresar{
+letter-spacing: 3px;
+font-size: 20px;
+
+}
+#espacio{
+	height: 31%;
+}
+
+.alto{
+	height: 300px;
+}
+
+
+#TEXTPRO{
+	display: block;
+	
+}
+
+
+
+
+#quehacemos{
+	padding: 20px 0 20px 0;
+}
+
+#contenedor{
+	background-color: #f8f7f5;
+	height: 400px;
+}
+
+#somos{
+	width: 100%;
+}
+
+
+
+#nadamos{
+	padding: 20px 10px 20px 10px;
+}
+
+.ti{
+	font-size: 20px;
+}
+
+#text2{
+	display: none;
+}
+
+#titM{
+	display: block;
+}
+
+
+
+.quienes{
+	font-size: 12px;
+	letter-spacing: 2px;
+}
+
+.quien{
+
+	font-size: 12px;
+}
+
+.parra{
+font-size: 15px;
+letter-spacing: 1px;
+padding-top: 10px;
+}
+
+.arriba{
+	padding-top: 40px;
+}
+#promenu{
+	padding: 10px;
+	
+}
+
+.mobilenav .lichico {
+    font-size: 15px;
+    color: #C9C9C9;
+}
+.mobilenav li {
+  padding: 0px;
+
+}
+
+.mobilenav li a {
+   
+    font-size: 20px;
+ 
+
+}
+
+.mobilenav li a:hover {
+   
+    font-size: 22px;
+ 
+
+}
+
+#video{
+		height: 260px
+	}
+
+
+
+
+
+ 
+}
+
+@media screen and (min-width: 768px) and (max-width: 1023px) {
+
+	#adress{
+
+	font-size: 14px;
+
+
+}
+
+
+h1,h2{
+font-size: 120px;
+
+}
+
+h3,#regresar{
+letter-spacing: 3px;
+font-size: 15px;
+
+}	
+	#foto{
+    
+   
+    height: 600px;
+    
+}
+
+#espacio{
+	height: 41%;
+}
+
+.alto{
+	height: 350px;
+}
+
+
+#TEXTPRO{
+	display: block;
+	
+}
+
+.ti{
+	font-size: 30px;
+}
+
+.quienes{
+	font-size: 15px;
+	letter-spacing: 2px;
+}
+
+.quien{
+
+	font-size: 18px;
+}
+
+
+#promenu{
+	padding: 10px;
+	
+}
+
+#FILIJ31, #FILIJ32, #FILIJ33, #mezcal, #RECREO, #CALACAS, #ALICIA{
+	width: 250px;
+	margin: 0 auto;
+}
+
+#video{
+		height: 350px
+	}
+
+
+}
+
+@media screen and (min-width: 1024px) and (max-width: 1399px) {
+
+#regresar{
+font-size: 20px;
+}
+h3{
+	font-size: 17px;
+}
+
+h1,h2{
+font-size: 200px;
+
+}
+
+	#foto{
+    
+   
+    height: 700px;
+    
+}
+
+#espacio{
+	height: 40%;
+}
+
+.alto{
+	height: 400px;
+}
+
+.quien{
+
+	font-size: 20px;
+}
+
+#video{
+		height: 500px
+	}
+
+
+
+
+ 
+}
+@media screen and (min-width: 1400px) {
+
+	#video{
+		height: 700px
+	}
+
+#foto{
+    
+
+    height: 800px;
+ 
+}
+
+#FILIJ31, #FILIJ32, #FILIJ33, #mezcal, #RECREO, #CALACAS, #ALICIA{
+	width: 300px;
+	margin: 0 auto;
+}
+
+#booking, #production{
+	height: 700px;
+	padding-top: 200px;
+}
+
+#management{
+	height: 600px;
+	padding-top: 200px;
+}
+
+
+
+}
+
+
+
+
+/* START NAV MENU */
+nav {
+ float: right;
+
+
+}
+ 
+ 
+nav ul {
+ 
+  margin: 0;
+  padding: 0;
+  list-style: none;
+
+}
+ 
+nav ul li {
+ 
+  position: relative;
+  float: left;
+ 
+}
+ 
+nav li ul { 
+  display: none; 
+}
+ 
+
+
+nav ul li a {
+
+  display: block;
+  text-decoration: none;
+  padding: 15px 15px 20px 15px;
+  font-family: CanterLight;
+  font-size: 25px;
+  color: #ffffff;  
+
+  white-space: nowrap;
+  height:40px; /* Width and height of top-level nav items */
+  width:130px;
+  text-align:center;
+  letter-spacing: 2px;
+
+
+  
+ 
+}
+
+.span {
+  font-size: 40px;
+}
+
+#pics{
+	padding-top: 40px;
+}
+
+#titulo{
+	padding: 10px 0px 10px 0px;
+	width: 100%;
+	margin: 0 auto;
+}
+.txtleft{
+	text-align: right;
+}
+
+audio { width: 100%; }
+
+.pad-10{
+	padding: 10px;
+}
