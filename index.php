@@ -50,7 +50,7 @@ $v1 = $_GET['s'];
           title: 'Agencia Oveja Negra'
         });
 
-        $("#infoperson").fadeOut();
+        
       }
 
     $(document).ready(function() {
@@ -194,7 +194,7 @@ if ($servicio.length == 0) {
         $( "#infoperson" ).toggle( "slow", function() {
           $("#mapamobile").backstretch("img/mapamobile.png");
           $('#production').css('background-position', 'left top');
-          $("#bodyContent").width("200px");
+          initMap();
         });
       });     
 
@@ -242,6 +242,7 @@ if ($servicio.length == 0) {
           padding : 5
         });
       });
+      $("#infoperson").fadeOut();
     });
   </script>
 </head>
